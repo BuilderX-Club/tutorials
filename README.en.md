@@ -4,6 +4,9 @@
 >
 > Welcome to the BuilderX Dreamer Community (Maker Community). We're not here to teach you to "learn AI" — we're here to help you **build your first creation**.
 
+> 🌐 **Online tutorial site**: https://builderx-tutorials.vercel.app (built with Astro + Starlight, bilingual)
+> 📖 The Markdown in this repo is the source; the website is generated from it.
+
 ---
 
 > 🇨🇳 **中文版**: [README.md](README.md) — 全部关卡均有中文版。
@@ -52,6 +55,7 @@ A free Google account is all it takes. Open it in your browser — no downloads,
 - 🌐 Website: https://www.builderx.club/
 - 💬 Discord: join the community and share your creations
 - 📚 This repo: open-source tutorials — PRs welcome ([CONTRIBUTING](CONTRIBUTING.md) · [License](LICENSE))
+- 🛠️ **Stack**: content lives in `src/content/docs/` (Markdown), site built with [Astro](https://astro.build) + [Starlight](https://starlight.astro.build), deployed on Vercel
 
 ---
 

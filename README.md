@@ -4,6 +4,9 @@
 >
 > 欢迎来到 BuilderX 造梦社区（造物社区）。我们不是来教你"学 AI"的——我们是来陪你**做出第一个作品**的。
 
+> 🌐 **在线教程站**：https://builderx-tutorials.vercel.app （Astro + Starlight 构建，支持中英双语）
+> 📖 本仓库的 Markdown 是教程的源文件，网站由它自动生成。
+
 ---
 
 > 🌐 **English version**: [README.en.md](README.en.md) — all levels available in English.
@@ -52,6 +55,7 @@
 - 🌐 社区官网：https://www.builderx.club/
 - 💬 Discord：加入社区，晒你的作品
 - 📚 本仓库：开源教程，欢迎 PR 共建（[贡献指南](CONTRIBUTING.md) · [License](LICENSE)）
+- 🛠️ **技术栈**：内容在 `src/content/docs/`（Markdown），站点用 [Astro](https://astro.build) + [Starlight](https://starlight.astro.build) 构建，部署在 Vercel
 
 ---
 
