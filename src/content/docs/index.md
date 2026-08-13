@@ -1,15 +1,15 @@
 ---
 title: BuilderX 造物挑战
-description: 你的第一个 AI 应用/产品，从这里开始。
+description: 8 个动手关卡，带你从第一句提示词做到一个有真实用户的小产品。
 template: splash
 hero:
   title: 你的第一个 AI 应用，从这里开始
-  tagline: 8 个关卡，从 10 分钟到一个月，用 AI 亲手造出 8 个真实作品。不教知识，只带你造东西。
+  tagline: 8 个动手关卡，从一句提示词走到一个有真实用户的小产品。每一关都以一个能展示、能继续修改的作品结束。
   actions:
     - text: 开始第 0 关
       link: /00-first-build/
       icon: rocket
-    - text: 查看全部关卡
+    - text: 🧭 查看全部关卡
       link: /tutorials/
       variant: secondary
 ---

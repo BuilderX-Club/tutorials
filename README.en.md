@@ -1,63 +1,59 @@
 # BuilderX Build Challenge 🚀
 
-> **Your first AI app/product starts here.**
+**✨ You do not need to finish a theory course before making something with AI.**
+
+BuilderX Build Challenge is a sequence of eight hands-on projects. You begin with one prompt, then build a webpage, a small tool, and a bot before moving on to automation, charging for a product, and finding real users. Every level has a concrete output and steps you can follow.
+
+> 🌐 [Open the tutorial site](https://builderx-tutorials.vercel.app) (built with Astro + Starlight; available in Chinese and English)
 >
-> Welcome to the BuilderX Dreamer Community (Maker Community). We're not here to teach you to "learn AI" — we're here to help you **build your first creation**.
+> 📖 The source lessons are Markdown files in [`src/content/docs/`](src/content/docs/).
 
-> 🌐 **Online tutorial site**: https://builderx-tutorials.vercel.app (built with Astro + Starlight, bilingual)
-> 📖 The Markdown in this repo is the source; the website is generated from it.
+> 🇨🇳 中文版：[README.md](README.md)
 
----
+[🌐 Tutorial site](https://builderx-tutorials.vercel.app) · [🧭 Level map](#-eight-levels-eight-things-to-make) · [🚀 Start here](#-start-with-level-0) · [🤝 Contribute](#-community-and-contributions)
 
-> 🇨🇳 **中文版**: [README.md](README.md) — 全部关卡均有中文版。
+## 🧭 Eight levels, eight things to make
 
-## This is not a tutorial, it's a challenge
+> 💡 **Who it is for:** People trying AI for the first time, or anyone who can chat with AI but has not yet finished a complete project.
+>
+> ⏱️ **How to use it:** Pick a level, follow the steps, and then change the result with your own content. No programming background is required.
 
-Other places teach you "knowledge". We take you to **build things**.
+| Level | ⏱️ Estimated time | 🎁 What you will finish with | English | 中文 |
+|---|---:|---|---|---|
+| 🏁 0 · Your first “creation” | 10 min | An AI conversation you have revised | [Start](src/content/docs/en/00-first-build/index.md) | [开始](src/content/docs/00-first-build/index.md) |
+| 🌐 1 · Your first webpage | 15 min | A one-page site you can open and share | [Start](src/content/docs/en/01-first-webpage/index.md) | [开始](src/content/docs/01-first-webpage/index.md) |
+| 🛠️ 2 · Your first tool | 30 min | A browser tool that solves one small problem | [Start](src/content/docs/en/02-first-tool/index.md) | [开始](src/content/docs/02-first-tool/index.md) |
+| 🤖 3 · Your first AI bot | 1 hour | A bot that answers questions on a chosen topic | [Start](src/content/docs/en/03-first-bot/index.md) | [开始](src/content/docs/03-first-bot/index.md) |
+| 📱 4 · Your first mobile app | Half a day | A web app designed for use on a phone | [Start](src/content/docs/en/04-first-miniapp/index.md) | [开始](src/content/docs/04-first-miniapp/index.md) |
+| ⚡ 5 · Your first automation | Half a day | A workflow that handles one repetitive task | [Start](src/content/docs/en/05-first-automation/index.md) | [开始](src/content/docs/05-first-automation/index.md) |
+| 💰 6 · Your first paid product | A weekend | A plan for pricing, payment, and delivery | [Start](src/content/docs/en/06-first-paid-product/index.md) | [开始](src/content/docs/06-first-paid-product/index.md) |
+| 🌱 7 · Your first 100 users | One month | An action plan for finding users and collecting feedback | [Start](src/content/docs/en/07-first-100-users/index.md) | [开始](src/content/docs/07-first-100-users/index.md) |
 
-After every level, you hold a **real creation you can share**:
+## 🚀 Start with Level 0
 
-| | Level | Time | Pass | English | 中文 |
-|---|---|---|---|---|---|
-| 🏁 | Level 0 · Your First "Creation" | 10 min | I've started! | [Start](00-first-build/your-first-creation.en.md) | [开始](00-first-build/your-first-creation.zh.md) |
-| 🚀 | Level 1 · Your First Webpage | 15 min | My first creation! | [Start](01-first-webpage/your-first-webpage.en.md) | [开始](01-first-webpage/your-first-webpage.zh.md) |
-| 🛠️ | Level 2 · Your First Tool | 30 min | I'm going to make it bigger! | [Start](02-first-tool/your-first-tool.en.md) | [开始](02-first-tool/your-first-tool.zh.md) |
-| 🤖 | Level 3 · Your First AI Bot | 1 hour | My creation is being seen! | [Start](03-first-bot/your-first-bot.en.md) | [开始](03-first-bot/your-first-bot.zh.md) |
-| 📱 | Level 4 · Your First Mini App | Half day | I can bring others along! | [Start](04-first-miniapp/your-first-miniapp.en.md) | [开始](04-first-miniapp/your-first-miniapp.zh.md) |
-| ⚡ | Level 5 · Your First Automation | Half day | I'm a Builder now! | [Start](05-first-automation/your-first-automation.en.md) | [开始](05-first-automation/your-first-automation.zh.md) |
-| 💰 | Level 6 · Your First Paid Product | A weekend | My dream can support me! | [Start](06-first-paid-product/your-first-paid-product.en.md) | [开始](06-first-paid-product/your-first-paid-product.zh.md) |
-| 🌍 | Level 7 · Your First 100 Users | A month | My dream is being seen by the world! | [Start](07-first-100-users/your-first-100-users.en.md) | [开始](07-first-100-users/your-first-100-users.zh.md) |
+> 🧰 **Before you start:** 🌐 A browser · 🔑 A Google account · ⏱️ 10 minutes
 
-## Start now (no preparation needed)
+Bring a browser and a Google account, then open [Google AI Studio](https://aistudio.google.com). The early levels mainly use Gemini and do not require a local development setup. Later levels introduce deployment, automation, and payment tools when the project calls for them.
 
-You don't need to know how to code, understand technology, or spend money.
+Start with [Level 0 · Your First “Creation”](src/content/docs/en/00-first-build/index.md). At the end, you will have an AI conversation you can save and keep revising.
 
-All you need: **a willingness to try** + one free tool.
+If you are already comfortable with the command line, you can use Codex (OpenAI) or Claude Code (Anthropic) instead. The instructions use Google AI Studio by default so first-time readers can follow the same screens.
 
-**We use Google AI Studio (Gemini) throughout:**
+## 🤝 Community and contributions
 
-👉 **https://aistudio.google.com**
+- 📸 **Share your work:** After finishing a level, post the result and any questions in the BuilderX community (Discord / WeChat groups).
+- ✍️ **Improve a lesson:** To fix wording, update an outdated step, or add a level, read the [contribution guide](CONTRIBUTING.md).
+- 📄 **Reuse the content:** The tutorials are licensed under [CC BY 4.0](LICENSE). Keep the attribution when sharing or adapting them.
 
-A free Google account is all it takes. Open it in your browser — no downloads, no installs.
+- 🌐 Project website: [builderx.club](https://www.builderx.club/)
+- 🛠️ Stack: lessons live in `src/content/docs/`; the site uses [Astro](https://astro.build) and [Starlight](https://starlight.astro.build), and is deployed on Vercel.
 
-> 🚀 Advanced builders can also try **Codex** (OpenAI) or **Claude Code** (Anthropic) — they're more powerful, but not beginner-friendly. Master AI Studio first; you'll know when it's time to switch.
+## 🔎 Documentation references
 
-👉 Start with [Level 0 · Your First "Creation"](00-first-build/your-first-creation.en.md). In 10 minutes you'll have your first creation.（中文？→ [第 0 关](00-first-build/your-first-creation.zh.md)）
+This README refactor draws on documentation patterns used by these open-source projects:
 
-## Build something, join the community
+- 📚 [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners): a numbered learning path, a lesson index, and a consistent structure for each lesson.
+- 🧩 [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning): organizing tutorials around the thing a learner will build.
+- 🍳 [openai/openai-cookbook](https://github.com/openai/openai-cookbook): grouping examples by practical task and keeping related resources easy to find.
 
-- Share your creation **in the community** (Discord / WeChat groups) after each level — meet fellow travelers
-- After the first three levels, join our offline **Builder Day** and build your idea bigger with a group
-- Outstanding creations get a chance to appear on **Demo Night** and be seen by more people
-
-## Build dreams together
-
-- 🌐 Website: https://www.builderx.club/
-- 💬 Discord: join the community and share your creations
-- 📚 This repo: open-source tutorials — PRs welcome ([CONTRIBUTING](CONTRIBUTING.md) · [License](LICENSE))
-- 🛠️ **Stack**: content lives in `src/content/docs/` (Markdown), site built with [Astro](https://astro.build) + [Starlight](https://starlight.astro.build), deployed on Vercel
-
----
-
-**BuilderX: A China-rooted, world-facing AI Builder community.**
-**Your first AI app/product starts here.**
+Only the information structure of the public READMEs informed this refactor; their lesson text and code were not copied into it. BuilderX lessons, examples, and prompts remain available under this repository's [CC BY 4.0](LICENSE), while external projects retain their own licenses.

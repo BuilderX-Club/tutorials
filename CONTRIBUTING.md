@@ -1,17 +1,17 @@
-# Contributing to BuilderX Tutorials
+# Contributing to BuilderX Tutorials 🤝
 
-Thanks for wanting to make this project better! 🚀
+Thanks for helping improve the tutorials.
 
-This repo is the home of **BuilderX 造物挑战 (BuilderX Build Challenge)** — a free, open, beginner-friendly tutorial series that helps complete beginners build their first AI-powered creations.
+This repository contains **BuilderX 造物挑战 (BuilderX Build Challenge)**, a free and open tutorial series for people building with AI for the first time.
 
-## What we welcome
+## 💡 What we welcome
 
 - 🆕 **New tutorials** — new levels, new topics, new use cases
 - 🌍 **Translations** — especially English, but any language is welcome
 - 🐛 **Fixes** — typos, broken links, outdated steps, confusing wording
 - 💡 **Ideas** — open an issue before writing a big feature
 
-## Getting started
+## 🚀 Getting started
 
 1. Fork this repository
 2. Create a branch: `git checkout -b my-change`
@@ -19,7 +19,7 @@ This repo is the home of **BuilderX 造物挑战 (BuilderX Build Challenge)** �
 4. Commit with a clear message
 5. Push and open a Pull Request
 
-## Tutorial conventions
+## 🧱 Tutorial conventions
 
 Each tutorial lives in a numbered folder and follows the same structure:
 
@@ -63,12 +63,22 @@ Every tutorial should include, in order:
 - **Free and global tools only.** Default to Google AI Studio (Gemini). Avoid tools that require payment or are unavailable in some regions.
 - **No marketing-speak.** Write like a friend teaching you, not a company promoting itself.
 
-## Naming
+### 🔎 Sources and attribution
+
+If a contribution adapts text, code, images, or exercises from another project, name the source on the page and in the pull request. Include:
+
+- the project or author name and a canonical link;
+- what was copied or adapted;
+- the source license and any attribution it requires.
+
+If you only use another README as a reference for navigation or section order, say exactly which structural pattern you followed. Avoid vague notes such as “inspired by open source.” Do not add a source you did not inspect.
+
+## 🏷️ Naming
 
 - Chinese: `your-first-xxx.zh.md`
 - English: `your-first-xxx.en.md`
 - Folder: `NN-first-xxx` (NN = level number, zero-padded)
 
-## License
+## 📄 License
 
 By contributing, you agree that your contributions are licensed under the same license as the project: **CC BY 4.0** (see [LICENSE](LICENSE)). Anyone can share and adapt the content with attribution.
