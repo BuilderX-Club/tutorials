@@ -33,6 +33,7 @@ export default defineConfig({
           label: '开始闯关',
           translations: { en: 'Start the challenge' },
           items: [
+            { label: '🧭 全部关卡', slug: 'tutorials', translations: { en: 'All levels' } },
             { label: '第 0 关 · 第一次造物', slug: '00-first-build', translations: { en: 'Level 0 · First Creation' } },
             { label: '第 1 关 · 第一个网页', slug: '01-first-webpage', translations: { en: 'Level 1 · First Webpage' } },
             { label: '第 2 关 · 第一个小工具', slug: '02-first-tool', translations: { en: 'Level 2 · First Tool' } },
