@@ -10,36 +10,36 @@ tags: [build-challenge, paid-product]
 
 # Level 6 · Your First Paid Product
 
-> A weekend to make your first creation **earn its first dollar**.
-> Money isn't the point — but "someone is willing to pay" is the most honest compliment in the world.
+> Spend a weekend testing whether someone will make the first payment for your product.
+> Charging forces you to state the problem you solve and what the customer receives after paying.
 
 ---
 
-## A story first
+## A common situation
 
-Su Su is a fitness coach. Her clients' constant question: "Coach, is my form right on this move?"
+Su Su is a fitness coach. Her clients often send training videos and ask whether they should adjust their form.
 
-She can't be online 24/7, so she built a "form check tool": clients upload a video of themselves training, and AI checks it against her coaching notes — what's right, what risks injury, how to fix it.
+She cannot be online all day, so she put her coaching notes into a "form check tool." Clients upload a training video, and AI points out what looks right, what may cause injury, and how they could adjust the movement.
 
-She gave it to clients for a week. Some said "this is so useful", others said "coach, you can build things?!"
+After a week of testing, some clients said it was useful, while others were surprised that their coach had built a tool. Su Su revised the instructions around their most common questions and added cases the tool could not assess.
 
 She tried charging $2.99/month. In the first month, 40 clients paid.
 
-She said: "It's not worth $2.99 in itself — **they trust me**. The tool just turned that trust into something they can pay for."
+Su Su felt that clients were paying for more than a webpage; they also trusted the training criteria she had organized. The suggestions are for training reference only. Anyone in pain or concerned about an injury should stop and consult a qualified professional.
 
-**Charging ≠ getting complicated. It just gives your value a price for the first time.**
+Once you charge, the price, scope of service, and delivery time all need to be explicit.
 
 ## What you'll build
 
-A small product **someone is willing to pay for** — not big, not perfect, just solving one specific problem.
+Make a small product for one specific problem and try to complete one real transaction. The first version can be narrow, but the deliverable must be clear.
 
-You'll also learn the complete loop: **build → price → collect payment → deliver**.
+This level follows four steps: **build → price → collect payment → deliver**.
 
 ## Let's build (a weekend, three parts)
 
 ### Part 1 (Saturday morning): Pick something people will pay for
 
-**You've already built 3-6 creations in earlier levels.** Now pick the one most likely to earn money. Ask yourself three questions:
+Review the projects from earlier levels. Choose one that somebody around you already needs, then answer three questions:
 
 1. **Who's already around you?** (clients, colleagues, parents, followers… the people who trust you most)
 2. **What problem of theirs can you already solve?** (pick one of your tools/bots/mini apps)
@@ -50,23 +50,23 @@ You'll also learn the complete loop: **build → price → collect payment → d
 > - 📚 **Template pack**: package your experience as templates (resume templates, report templates, workout plans), $2-15 each
 > - 🧑‍🏫 **One-on-one service**: your tool + your time, solving one specific problem for one person ($15-150/session)
 
-**Pick one.** Don't obsess over which earns most — pick "something the people around you need".
+Choose one direction. Test the need with people around you instead of preparing three products at once.
 
 ### Part 2 (Saturday afternoon to night): Polish it to "worth paying for"
 
-Take your chosen tool and do three things in a day:
+Spend the day on these three parts of the tool:
 
 1. **Make it stable**: fix every error you and your friends hit
-2. **Make it feel like a product**: add a clear landing page — what it's called, what problem it solves, how much it costs (say it in one sentence)
+2. **Make it feel like a product**: add a clear landing page with its name, the problem it solves, and the price in one sentence
 3. **Make it usable**: have 3 real users test it again, fix every "stuck point"
 
-> One standard: **would you pay for this product yourself?** If not, keep improving until you would.
+> Ask 3 target users to complete the whole flow and explain why they would or would not pay. Your own opinion is not enough evidence.
 
 ### Part 3 (Sunday): Price, collect payment, deliver
 
 #### Pricing (30 minutes)
 
-The simplest pricing method: **ask your target users.**
+For the first price, ask target users and account for the time and cost of delivery.
 
 > "If this tool saved you 1 hour a week, how much would you pay per month?"
 
@@ -77,9 +77,9 @@ The simplest pricing method: **ask your target users.**
 #### Collecting payment (1 hour)
 
 For international users: **Gumroad / Lemon Squeezy / Stripe** (you can start selling in minutes);
-for local payment methods, use whatever people in your region pay with — often a simple payment QR code or a platform like Ko-fi.
+for local payment methods, use an option people in your region already use, such as a payment QR code or a platform like Ko-fi.
 
-> Keep it simple for the first sale: **one payment link is enough.** Collect the money first, build systems later.
+> A payment link is enough for the first transaction, but keep an order record and explain refunds and delivery before the customer pays.
 
 #### Delivering (2 hours)
 
@@ -89,7 +89,7 @@ Make clear "what happens after payment":
 2. Or: put the download link right on the payment page / auto-send by email
 3. State clearly: **what the customer gets within 24 hours of paying**
 
-### Wrap up: Post your first "ad"
+### Wrap up: Share the product description
 
 Write a 5-sentence message and post it to your friends circle / group:
 
@@ -97,11 +97,11 @@ Write a 5-sentence message and post it to your friends circle / group:
 > Normally【price】, first 10 people get【discount price】.
 > Reply or DM me if you want it.
 
-**The first dollar almost always comes from the people closest to you. Don't be shy — they genuinely want to support you.**
+You can start with people who know your work. Keep support and purchase separate, and let them decide whether the product actually fits their needs.
 
 ## Your creation
 
-A product that has **received real payment**. Even if it's just $2.99, it proves someone needs what you built.
+Your result is a recorded payment and a delivery completed as promised. The amount can be small; the full transaction matters here.
 
 ## Share your creation
 
@@ -111,10 +111,10 @@ Screenshot your first payment (blur the details) and post to the community:
 
 ## What you learned
 
-- Charging = **someone pays for your value** — it has nothing to do with how "big" the product is
-- Pricing isn't a guess: **ask your users**
-- Keep the first sale simple: **one payment link + manual delivery** is enough to start
-- You've moved from "building for fun" to "building for value" — **that's the line between a Builder and a hobbyist**
+- Before charging, define the problem, scope of service, and delivery time
+- Pricing needs user feedback and must also cover your time and delivery costs
+- You can deliver the first order manually, but order records, refunds, and delivery terms still matter
+- After the transaction, review why the customer bought and which part of delivery took the most work
 
 ---
 

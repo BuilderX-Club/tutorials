@@ -10,34 +10,34 @@ tags: [build-challenge, automation]
 
 # Level 5 · Your First Automation
 
-> Half a day to let AI **work for you** — without you watching, it runs by itself.
-> The earlier levels were "you direct it". This one is "it works on its own". Finish it and you're a Builder.
+> Spend half a day setting up a workflow that runs on a schedule.
+> Run it manually first, then enable the schedule and keep checking the results.
 
 ---
 
-## A story first
+## A common situation
 
-Lao Zhou is in charge of compiling weekly reports from every department. Every Friday afternoon, he collects reports from 6 departments, tidies them up, merges them into one master report, and emails it to leadership.
+Lao Zhou compiles weekly reports from every department. Each Friday afternoon, he collects 6 reports, standardizes their formatting, combines them, and emails the final document to leadership.
 
-That one task ate an entire afternoon, every week.
+The steps rarely change, but they take most of Friday afternoon.
 
-He had AI build a "pipeline": every Friday at 5 PM, it automatically grabs all the weekly reports, summarizes the key points, generates a clean master report, and emails it to leadership.
+He split the work into fixed actions: at 5 PM on Friday, read messages under a specific label, summarize them, write the result into one template, and send it to a specified inbox.
 
-The first time it ran end to end, he said: "They gave me my afternoon back."
+After the workflow ran successfully, he still checked the final report, but no longer copied each department's text by hand.
 
-**Automation = turning "the repetitive thing you do every week" into "a machine that runs by itself."**
+Automation works best for tasks with stable rules, repeated steps, and results that are easy to check.
 
 ## What you'll build
 
-An **automation pipeline** — you set it up once, and it does the job every time after.
+Build an automation pipeline that follows a schedule and a defined set of steps.
 
-Goal: eliminate one **weekly, highly repetitive** task from your life or work.
+Choose one weekly task. You do not need to automate all of it; reliably removing a few repetitive steps is enough for this level.
 
 ## Let's build (half a day)
 
 ### Step 1: Find the "every week" task (30 minutes)
 
-Think: **what do you do every week, sighing internally while you do it?**
+Think back over the week. Which task follows almost the same sequence every time?
 
 - 📊 Compiling weekly reports/data (collect → organize → report)
 - 📅 Managing your schedule (turning emails/group messages into calendar events)
@@ -45,7 +45,7 @@ Think: **what do you do every week, sighing internally while you do it?**
 - 📣 Content publishing (posting your article/images to 3 platforms every week)
 - 📧 Email triage (picking out important emails, archiving the rest)
 
-**Pick the one with the highest "sigh rate".**
+Start with the task whose steps are most stable and whose mistakes are easiest to notice.
 
 ### Step 2: Draw your pipeline (30 minutes)
 
@@ -57,15 +57,15 @@ Automation is like an assembly line. Draw the three parts first:
 【Output】Where does it go?    →  Leadership's inbox / my phone
 ```
 
-Write it down on paper. **If you can't explain the flow clearly, AI can't either** — this level tests not technology but whether you can describe a process clearly.
+Write the flow on paper. If the trigger, action order, or output is still unclear, settle that before opening an automation tool.
 
 ### Step 3: Build the pipeline with a free tool (1 hour)
 
-There's a free tool built exactly for this, no coding needed:
+This level uses n8n, which lets you connect the steps without writing code:
 
 👉 **https://n8n.io** (or similar tools available in your region)
 - Free community edition (self-host) or cloud free tier
-- Or **Google Apps Script** (free, you have it with any Google account — great for Gmail/Sheets/Calendar)
+- Or **Google Apps Script** (included with a Google account and useful for Gmail, Sheets, and Calendar)
 
 Using "weekly summary" as an example, build it in n8n like this:
 
@@ -77,14 +77,14 @@ Using "weekly summary" as an example, build it in n8n like this:
 5. Add an Email node: send the summary to you / leadership
 ```
 
-> Stuck? Just ask AI: paste this 5-step description into AI Studio and ask it to translate it into exactly which buttons to click in n8n and what to fill in.
+> If you do not know how to configure a node, give AI Studio these 5 steps and describe the screen you are on. Ask which node to choose and which fields to fill. Check the permissions and output yourself afterward.
 
 ### Step 4: Run it manually first, then automate (1 hour)
 
-**Never let a machine run automatically on its first try.** Two phases:
+Do not enable the schedule on the first attempt. Test it in two stages:
 
 1. **Trigger it manually once**: click the "Execute" button, check each step for errors, verify the result
-2. **Only after it's clean, turn on the "schedule" switch**
+2. **Turn on the schedule only after every step and the final result are correct**
 
 If a step errors, copy the error to AI:
 
@@ -94,27 +94,27 @@ My automation fails at step 3 with this error: <paste the error here>. How do I 
 
 ### Step 5: Run it for two weeks, then iterate (30 minutes + two weeks)
 
-- Week 1: it runs on schedule — check the results
+- Week 1: let it run on schedule, then check the results
 - Week 2: look for places where "the machine did it wrong but you didn't notice"
 - Fix issues in the pipeline; if it's clean, let it keep running
 
-> ⚠️ The time automation saves you — **don't spend it on more repetitive work.** Spend it on the things only you can do.
+> ⚠️ Set aside a few minutes each week to inspect the run history. Automation repeats correct steps, but it also repeats configuration mistakes.
 
 ## Your creation
 
-A pipeline that runs itself and does your weekly job. **It works while you sleep.**
+Your result is a weekly pipeline and two run records that you have inspected.
 
 ## Share your creation
 
 Screenshot the pipeline's run history (or show one auto-generated result) and post to the community:
 
-> "I built an automation pipeline — every Friday it handles my【weekly report】for me ⚡"
+> "I built an automation pipeline. Every Friday it prepares my【weekly report】for me ⚡"
 
 ## What you learned
 
-- **Automation = trigger + actions + output.** Draw the flow clearly and a machine can do it for you
-- Run it manually first, then automate — **never let an untested machine run on its own**
-- A real Builder hands off the repetitive and keeps the creative
+- An automation workflow consists of a trigger, a sequence of actions, and an output
+- Test it manually before scheduling it, then inspect logs and results regularly
+- Automate stable steps first and leave work that requires judgment to a person
 
 ---
 

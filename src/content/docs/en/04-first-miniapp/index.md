@@ -10,34 +10,32 @@ tags: [build-challenge, mini-app, mobile]
 
 # Level 4 · Your First Mini App (Mobile App)
 
-> Half a day to build a "mini app" that feels like a real app on your phone.
-> No App Store, no review process — build it, share a link, done.
+> Spend half a day adapting a webpage for use on a phone.
+> When it works, people can open it from a link or add it to their home screen.
 
 ---
 
-## A story first
+## A common situation
 
-Xiao Yu is a kindergarten teacher. Her daily exhaustion isn't the kids — it's **answering parents' questions**:
+Xiao Yu is a kindergarten teacher. Along with looking after the children, she answers the same questions from parents each day:
 
 "What did my child eat today?" "Did they nap?" "Did they cry today?"
 
-30 parents, 30 repeats. Every evening she replied one by one in the group chat.
+With 30 children in the class, the same information gets repeated many times. She still replies to individual messages after work.
 
-She had AI build a "daily class report" mini app: she spends 2 minutes a day tapping a few buttons, and it auto-generates a nice daily report she can copy and send to the parents' group in one tap.
+She used AI to make a "daily class report" mini app. Each day she spends 2 minutes selecting the lunch and nap details and adding one note. The page arranges the information into an illustrated report for the parent group.
 
-Parents said: "This is great! We can see how our kids are doing every day."
+Parents liked being able to see how the children spent the day. A task Xiao Yu once found burdensome now fits into those 2 minutes. She still checks each report before sending it.
 
-She said: "Before this was a burden. Now it's the most rewarding two minutes of my day."
-
-**A "mini app" isn't mysterious — it's a webpage that's convenient to open and pleasant to use on a phone.**
+In this tutorial, a "mini app" is a webpage adjusted for a phone screen and touch controls.
 
 ## What you'll build
 
-A **mobile-friendly mini app**: opens like an app, big enough buttons, operated by tapping, and it can be **added to your home screen**.
+Build a page that works well on a phone. Its buttons should be easy to tap, and users should be able to add it to their home screen.
 
-It solves a small annoyance in your life that **happens every day**.
+Use it for one small task that comes up every day.
 
-## Let's build (half a day — split across two days if you like)
+## Let's build (half a day, or two shorter sessions)
 
 ### Step 1: Find an "every day" annoyance (30 minutes)
 
@@ -52,7 +50,7 @@ Examples:
 - 💊 **Medication reminder**: record which meds the elderly person took today
 - 📒 **Daily reflection**: 3 questions before bed → generates today's summary
 
-**Pick one you'll actually use tomorrow.** A tool nobody uses isn't worth building, no matter how pretty.
+Pick a situation you will encounter tomorrow. That gives you a chance to test the page immediately.
 
 ### Step 2: Have AI generate the mini app (30 minutes)
 
@@ -80,8 +78,8 @@ Features (class daily report):
 ### Step 3: Test on your computer (30 minutes)
 
 1. Copy the code → preview at https://htmlpreview.github.io/ (or save `index.html` and double-click)
-2. Tap a few buttons — does the generated report look right?
-3. **Key test: shrink your browser window to phone width** — are the buttons still easy to tap? Is the text big enough?
+2. Tap a few buttons and check whether the generated report looks right
+3. **Key test: shrink your browser window to phone width.** Check whether the buttons are still easy to tap and the text is large enough
 4. Not happy? Go back and direct AI:
 
 ```
@@ -93,23 +91,23 @@ The buttons are too small on a phone. Increase the spacing and font size. Output
 1. Deploy with free hosting: https://app.netlify.com/drop → drag `index.html` in → get a URL
 2. **Open the URL on your phone**
 3. In your phone browser's menu, choose **"Add to Home Screen"**
-4. An icon appears on your phone's home screen — tap it, and it opens like an app
+4. An icon appears on your phone's home screen; tap it to open the page
 
-> Congratulations — you now have an app that works without being on any app store. No review, no fees, and anyone in the world with the link can use it.
+> The page now opens from your home screen and still works through its link. Test it once on your own phone before sending it to anyone else.
 
 ### Step 5: Get 3 people using it (1 hour)
 
-Bring in the person you most want to serve (a parent, a roommate, a colleague):
+Ask one likely user, such as a parent, roommate, or colleague, to try it:
 
 1. Show them how to open the link
-2. Watch them use it — **wherever they hesitate or mis-tap is what you fix**
+2. Watch them use it; note every hesitation or missed tap
 3. Fix it, redeploy, send them the new link
 
-> Remember: a rough first version is fine. **People actually using it matters more than anything.**
+> The first version can be simple, but the full task should work. Fix the places where users get stuck before adding features.
 
 ## Your creation
 
-A mini app that fits "in your phone" — something your family, friends, or customers open every day.
+Your result is a mini app that opens from a phone's home screen. Continued use will tell you whether it belongs in someone's daily routine.
 
 ## Share your creation
 
@@ -119,9 +117,9 @@ Record a short video of it on your phone (or take screenshots) and post to the c
 
 ## What you learned
 
-- **A mini app = a webpage that's good on phones** — no app store, no review, free
-- The standard for a good product isn't "lots of features" — it's **"people use it every day"**
-- Mobile experience (big buttons, big text, easy tapping) is completely different from desktop — **always test on a real phone**
+- This level's "mini app" is a webpage adapted for phones and added to the home screen
+- Make one frequent task easy before adding more features
+- A desktop preview cannot replace a phone test; check button size, text size, and spacing on a real device
 
 ---
 

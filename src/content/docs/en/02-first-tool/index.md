@@ -10,26 +10,26 @@ tags: [build-challenge, tool]
 
 # Level 2 · Your First Tool
 
-> 30 minutes to build a tool that solves a **real small annoyance** in your life.
-> The first two levels were "playing". This one is "using". Finish it and you're a real Builder.
+> Spend 30 minutes building a small tool for one task you repeatedly face.
+> This level adds one important step: define the input, the processing, and the output.
 
 ---
 
-## A story first
+## A common situation
 
-A Ze is a grad student in Chinese literature. His weekly dread: the "reading journal" he has to submit, and he can never get started.
+A Ze is a graduate student in Chinese literature. His weekly reading journal is hardest at the beginning, when the page is still blank.
 
-He had AI build a "reading journal generator": type in the book title, author, and three keywords he noticed — AI produces a complete draft journal entry he can polish and submit.
+He made a "reading journal generator". It takes a book title, the author's name, and three keywords from his notes, then produces a draft. A Ze checks it against the book and adds his own interpretation instead of starting from a blank page.
 
-His roommate was stunned: "Can I borrow this thing?"
+After watching him use it, his roommate asked: "Can I borrow this thing?"
 
 A Ze said: "I made it."
 
-**From this level on, you're not just "using AI" — you're "building tools for others to use."**
+The difference from an ordinary chat is small but useful: the same input rules can run again, and someone else can use them too.
 
 ## What you'll build
 
-A tool that solves **your own real problem**. When it's done, it looks like this:
+Build a tool for one problem you know well. Keep the interaction simple:
 
 - Open the page
 - Enter a few pieces of info
@@ -42,7 +42,7 @@ For example:
 - 💰 **Pocket money tracker**: enter income/expenses → auto-calculate balance
 - 🎁 **Gift recommender**: enter what the person is like → get gift ideas
 
-**Pick one you actually need.** Don't pick something "cool-sounding but useless to you".
+Choose something you would use yourself. Familiar problems make it easier to judge whether the result is any good.
 
 ## Let's build (30 minutes)
 
@@ -54,7 +54,7 @@ Ask yourself three questions, write them down:
 2. **What's the input?** (e.g., budget, number of people, dietary restrictions)
 3. **What do I want as output?** (e.g., a weekly menu)
 
-> This is the first step of being a product manager — not writing code, but **knowing clearly "what problem, for whom".**
+> Write down who will use it, what they enter, and what they should receive. Those answers determine most of the tool before any code exists.
 
 ### Step 2: Tell AI your idea (5 minutes)
 
@@ -74,7 +74,7 @@ Features:
 
 Replace【dinner decider】with your own tool and the feature list with the input/output you defined in Step 1.
 
-> **Key trick:** Always end with "**Output the complete HTML code**" so AI gives you the full working code.
+> **Key trick:** Keep "**Output the complete HTML code**" at the end so AI returns a file you can save and test.
 
 ### Step 3: Have AI build it (10 minutes)
 
@@ -111,21 +111,21 @@ After each change: copy the new code → refresh preview → test.
 
 ### Step 5: Share it (7 minutes)
 
-Now you have something real. Let others use it:
+Once the tool works on your computer, let someone else try it in one of these ways:
 
-**Simplest way:** send the `index.html` file to a friend — they double-click and it works.
+**Simplest way:** send the `index.html` file to a friend. They can double-click it to open the tool.
 
-**Better way:** deploy it online (free) and get a link anyone can open.
+**Easier to share:** deploy it online and get a link that opens directly.
 
 To deploy (recommended):
 - **Vercel** (free): vercel.com → sign up with GitHub or email → New Project → upload your index.html → Deploy → get a URL
 - Or **Netlify Drop** (even simpler): https://app.netlify.com/drop → drag your `index.html` in → get a URL
 
-> If deployment gets stuck, don't obsess — **getting 3 friends to use it matters more than deploying it.**
+> If deployment gets stuck, send the file first. The current goal is to watch 3 friends use it, not to spend all your time publishing it.
 
 ## Your creation
 
-A tool that does "input → click button → get result".
+Your result is a tool that completes the flow "input → click button → get result".
 
 Find a friend to try it. Watch where they get stuck, then tell AI to fix it.
 
@@ -133,17 +133,17 @@ Find a friend to try it. Watch where they get stuck, then tell AI to fix it.
 
 Screenshot your tool + your friend's reaction, post to the community:
 
-> "I made a【dinner decider】— no more agonizing over what to eat! Who wants the link?"
+> "I made a【dinner decider】. It gives me a weekly menu when I can't decide what to eat. Who wants the link?"
 
-**Getting others to use your tool is the moment you cross from "learning to play" to "being a real Builder."**
+Watch for pauses and mistakes while your friend uses the tool. They usually show what the next revision should address first.
 
 When you're done, move on: build your first AI bot.
 
 ## What you learned
 
-- **A tool = input + processing + output.** Figure out those three and you can "build" anything
-- You don't build from scratch — **AI writes the code, you're the product manager**
-- Real users matter more than anything
+- A small tool needs three clear parts: **input + processing + output**
+- AI can generate code; you define the function, check the result, and decide what to fix first
+- Observe real use before adding more features
 
 ---
 
@@ -151,6 +151,6 @@ When you're done, move on: build your first AI bot.
 
 ---
 
-> 🎉 **Congratulations! You've completed the first three levels and hold three real creations.**
-> You can keep going — or join our offline **BuilderX Builder Day** and build your idea bigger with a group of people like you.
+> 🎉 **The three warm-up levels end here. You should now have three files or conversations you can open and show.**
+> Continue to the next level, or bring your work to an offline **BuilderX Builder Day** and revise it with other participants.
 > 👉 Follow community announcements / Discord for event info

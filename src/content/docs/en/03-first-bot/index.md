@@ -10,28 +10,28 @@ tags: [build-challenge, bot]
 
 # Level 3 · Your First AI Bot
 
-> 1 hour to build a bot that **answers people's questions automatically**.
-> From this level on, what you build starts **working for you**.
+> Spend 1 hour building a webpage that answers common questions.
+> You prepare the answers and fallback rules; the bot handles the first pass at repeated questions.
 
 ---
 
-## A story first
+## A common situation
 
-Da Peng sells cars. His biggest daily headache isn't selling — it's answering the same questions:
+Da Peng sells cars. Along with meeting customers, he answers the same few questions every day:
 
-"How much is this car?" "How does financing work?" "Is maintenance expensive?" — the same questions twenty times a day, plus customers texting him at midnight.
+"How much is this car?" "How does financing work?" "Is maintenance expensive?" A question may come up twenty times in one day, and messages continue into the evening.
 
-He spent one evening building a "car buying assistant" bot with AI: he loaded in all the common questions and answers, made it a webpage link, and posted it to his moments feed.
+He spent an evening collecting the most common questions and his standard answers, then used AI to turn them into a "car buying assistant" webpage and posted the link to his social feed.
 
-After that, the bot answered most questions first, and only the rest came to him. He said: "I hired an assistant that never clocks out."
+The bot handles questions already covered in the material and directs anything else to a person. Da Peng still deals with unusual cases, but he no longer starts every basic answer from scratch. He jokes that he gained "an assistant that never clocks out."
 
-**You don't need to understand "artificial intelligence". You just need to put the answers in your head into a webpage.**
+The work in this level is organizing reliable answers and deciding what the bot should do when it cannot answer.
 
 ## What you'll build
 
-A **chat bot webpage** — people open the link, type a question, and it answers automatically.
+A chat bot webpage. People open the link, type a question, and receive an answer based on the material you provide.
 
-Your friends, colleagues, and customers can all use it. It answers with the content you defined.
+Start with a small group of friends, colleagues, or customers. Check that the bot stays within the scope you set.
 
 ## Let's build (1 hour)
 
@@ -45,7 +45,7 @@ Write down 5-10 "most-asked questions" and their answers. Da Peng wrote:
 - Q: How much is maintenance? A: Small service $85, major service $220, first service free.
 - Q: Can I test drive? A: Yes, book one day ahead; weekends fill up fast.
 
-> These "Q&A pairs" are your bot's brain. The more complete they are, the smarter it is.
+> These Q&A pairs define what the bot can answer reliably. Specific answers also make it easier to spot mistakes during testing.
 
 ### Step 2: Get a free key from Google AI Studio (5 minutes)
 
@@ -55,8 +55,8 @@ Open:
 
 Sign in with your Google account, click **"Create API key"**, and copy the string (it looks like `AIza...`).
 
-> 🔑 This string is a "key" — **don't share it with anyone.** It's only for you, and the free tier is plenty for personal use.
-> If it ever leaks, come back to this page, delete it, and create a new one.
+> 🔑 Treat this string like an account key and **do not share it**. Check the page for the current free quota and usage limits.
+> If it leaks, return to this page immediately, delete the old key, and create a new one.
 
 ### Step 3: Have AI generate the bot webpage (15 minutes)
 
@@ -79,7 +79,7 @@ Background: I'm a【car salesperson】and want a bot that answers customers' com
 7. All text in English, output the complete HTML code
 ```
 
-AI will generate a longer block of code — that's fine. **You only need to copy and paste.**
+AI will generate a long block of code. Copy the complete block, then test the behavior with real questions.
 
 ### Step 4: Copy code, paste key, test (15 minutes)
 
@@ -96,20 +96,20 @@ The bot sounds too formal. Change the tone to【chatting like a friend】and out
 
 ### Step 5: Deploy it (20 minutes)
 
-Same as last level — use free hosting to turn your bot into a link everyone can open:
+As in the previous level, use free hosting to give the bot a link:
 
 - **Netlify Drop** (simplest): https://app.netlify.com/drop → drag `index.html` in → get a URL
 - Or **Vercel**: vercel.com → sign up → New Project → upload files → Deploy
 
-Once deployed, open the link on your **phone** — your bot is now "pocket-sized".
+After deployment, open the link on your phone. Check the input field, send button, and answer area at the smaller screen size.
 
 ## Your creation
 
-A talking webpage link. Send it to friends:
+Your result is a webpage link that can hold a conversation. Send it to a friend:
 
-> "This is a bot I made — ask it anything and see."
+> "This is a bot I made. Ask it a question and tell me where the answer goes wrong."
 
-Watch what unexpected questions they ask — **those questions are the upgrade list for your bot's next version.**
+Write down questions the bot cannot answer or answers poorly. Use that list when you expand the source material.
 
 ## Share your creation
 
@@ -119,9 +119,9 @@ Screenshot your conversation with the bot and post it to the community:
 
 ## What you learned
 
-- **A bot = your knowledge + AI's mouth**: you give it the answers, it speaks for you
-- The API Key is a "key": use it yourself, don't share it
-- Always give what you build to real people — **the questions they ask are your improvement roadmap**
+- A bot is only as reliable as the source material, limits, and fallback rules you give it
+- Keep the API Key private; revoke and replace it immediately if it leaks
+- Questions from real users reveal gaps in the material and help you choose the next revision
 
 ---
 

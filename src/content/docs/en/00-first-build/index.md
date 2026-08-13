@@ -10,34 +10,34 @@ tags: [build-challenge, getting-started]
 
 # Level 0 · Your First "Creation"
 
-> 10 minutes to make AI listen to you for the first time.
-> From this level on, you're no longer "someone who uses AI" — you're a **Builder**.
+> Spend 10 minutes on two attempts: ask AI for a first draft, then ask it to revise that draft.
+> By the end, you will have an AI conversation you can save and continue editing.
 
 ---
 
-## A story first
+## A common situation
 
-Xiao Zhang works in finance and deals with spreadsheets all day. She has never written a line of code.
+Xiao Zhang works in finance and spends much of her day in spreadsheets. She has no coding experience.
 
-Last month, she needed to send a "reimbursement instructions" message to 30 colleagues — but each person's situation was different. Writing 30 versions by hand was painful.
+One day, she needed to send reimbursement reminders to 30 colleagues. A single message could not cover everyone, but writing 30 versions would take too long.
 
-She'd heard AI could help, so she opened an AI tool and typed one sentence:
+She opened an AI tool and put the headcount and common situations into one request:
 
 > "Help me write 30 different reimbursement reminders for different situations: some people lost their receipts, some went over budget, some filed duplicates."
 
-AI wrote them all in a rush. She copy-pasted, changed the names, and finished in half an hour what would have taken a whole day.
+AI returned 30 drafts. She checked each one, then added the right name and details. The job she expected to spend a day on took her half an hour.
 
-She told us later: "I used to think AI was for programmers. Now I realize it's for **people who know how to ask**."
+Xiao Zhang had assumed AI was mainly for programmers. She did not need code for this task; what mattered was explaining the audience, the differences between cases, and what each message needed to do.
 
-**Guess what? You already know how to ask.** You do it every day: asking the delivery rider for extra chili, asking a colleague to send a file, asking a friend for a movie recommendation.
+You already make requests all day. You add a note to a food order, ask a colleague for a file, or ask a friend to recommend a film. In each case, useful details lead to a more useful answer.
 
-This level is about taking that skill everyone has — asking — and applying it to AI.
+This level applies the same habit to AI, then adds one more step: revise the request after seeing the result.
 
 ## What you'll build
 
-Get AI to complete a real small task — **not AI improvising on its own, but something you directed it to make**.
+Ask AI to complete one small task you can actually use, then have it rewrite the result after a second instruction.
 
-Your first creation is a conversation where you direct AI.
+Save the conversation. It should show the original request, the first result, and the change you asked for.
 
 ## Let's build (10 minutes)
 
@@ -49,7 +49,7 @@ Open your browser and go to:
 
 Sign in with a Google account (create one for free if you don't have it).
 
-You'll see a chat interface — this is your "creation workshop". You can pick a model on the left; use the default **Gemini 2.5 Flash** (free and fast).
+After signing in, you will see a chat interface. Choose the default **Gemini 2.5 Flash** model from the menu on the left.
 
 > 💡 If the page is in English and you prefer another language, you can change it in settings.
 
@@ -62,7 +62,7 @@ You are a very creative friend. Help me write a birthday message for my【best f
 Make it【funny】, under 100 words, and include a memory we share.
 ```
 
-See AI's answer? **Congratulations — your first "creation" is born.** It's text, but it's something you directed AI to make.
+Treat the response as a first draft. Read it once and check the tone, length, and details against your request.
 
 ### Step 3: Make it follow your changes (3 minutes)
 
@@ -72,7 +72,7 @@ Now type:
 That's good, but make it【more formal】. Less funny, warmer in tone.
 ```
 
-AI will rewrite it immediately. Notice? **You change one word, it changes completely** — that's what "directing" feels like.
+Compare the two versions. A small change to the tone can affect the word choice and rhythm throughout the message.
 
 Try once more:
 
@@ -90,17 +90,17 @@ list dinner options for all seven days, with a balance of meat and vegetables,
 and a budget of【$80 per week】.
 ```
 
-See — it gave you a weekly menu. **That's a real little tool.**
+Once it gives you a weekly menu, check the budget and the mix of meals. Replace anything your household would not eat before using the plan.
 
 ## Your creation
 
-From this level you have:
+After this level, you should have:
 
 1. A personalized birthday message (you can actually send it)
 2. A weekly dinner plan (you can actually use it)
-3. **Most importantly: you experienced the full loop of "directing AI"** — ask → see result → request changes → see the new result
+3. One complete revision loop: ask → see result → request changes → review the new result
 
-Screenshot your conversation. That's your first creation.
+Capture both versions in the screenshot so you can see which instruction changed the result.
 
 ## Share your creation
 
@@ -108,15 +108,15 @@ Post your conversation screenshot to the community (Discord / WeChat groups) wit
 
 > "My first AI creation! Turns out I already knew how to direct AI 🎉"
 
-When you share, you'll find many people on the same path — **seeing each other's creations is the fastest way to grow.**
+If you want to compare approaches, look at how other people phrased their requests. Save any wording you would like to try next time.
 
 When you're done, move on to the next level: build a real webpage.
 
 ## What you learned (in plain words)
 
-- AI isn't mysterious. It's a **very obedient, very fast assistant that needs you to be clear**
-- The three moves of directing AI: **say what you want → see the result → ask for changes if you're not happy**
-- You don't need code — **you just need to know how to ask**
+- AI generates from your written request, but you still need to check whether the result is usable
+- Most useful conversations take a few rounds: **say what you want → review the result → point out what should change**
+- This level needs no code; the work is making the task, audience, and constraints specific
 
 ---
 

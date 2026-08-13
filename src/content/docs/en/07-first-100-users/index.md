@@ -10,88 +10,86 @@ tags: [build-challenge, growth]
 
 # Level 7 · Your First 100 Users
 
-> A month to get your creation used by **100 real people**.
-> 100 users isn't a lot — but it proves you went from "made something" to "made something people need".
+> Spend a month reaching 100 real users and recording whether they actually use the product.
+> The number is only a target. Also track where users came from, where they stopped, and why they returned.
 
 ---
 
-## A story first
+## A common situation
 
-Lao Han retired and got into traditional herbal wellness. He built a "constitution quiz" mini app: answer 8 questions, and AI gives you a wellness report with dietary advice.
+After retiring, Lao Han became interested in traditional herbal wellness. He made a "body constitution quiz" mini app. After 8 questions, AI produces a constitution report and dietary suggestions, with a clear note that the content is not medical advice.
 
-He knew nothing about growth or ads. He did one thing: **every day, in three wellness groups, he helped people take the quiz for free.**
+He did not run ads. He invited people in three communities he already knew to try it for free and responded to their feedback one message at a time.
 
-People who found it accurate shared it with other groups. Group owners treated it as a perk for their members and promoted it for him. Three months later, the mini app had over 2,000 users.
+Some users forwarded the result page to other groups, and a few group owners shared it as a resource for their members. After three months, the mini app had more than 2,000 users.
 
-He said: "I didn't do anything complicated. I just **made the first user happy, then let happy users tell the next person.**"
+His process was straightforward: watch where the first users struggled, fix those points, then ask willing users to share it with someone who might need it.
 
-**100 users aren't "dragged in" — they're "served in".**
+This level does not cover large ad campaigns. It focuses on individual invitations, written feedback, and repeating the sharing methods that work.
 
 ## What you'll build
 
-100 people who **actually use** your creation.
+The goal is 100 people who have actually used your product.
 
-Note the key word: not 100 "followers", not 100 "downloads" — 100 people who **use it and come back**.
+Follower and download counts do not complete the level. Record at least one meaningful action, and track return visits if the product is meant for repeated use.
 
 ## Let's build (a month, one small step per week)
 
 ### Week 1: Find your "first 10 people"
 
-**Don't think "promote to everyone". First serve 10 people well.**
+Start with 10 specific people instead of posting the same promotion in every group.
 
 1. List people you know who might actually use your product (friends, colleagues, peers, community members… start with 20)
 2. Message them one-on-one. Don't say "help me promote". Say:
 
-> "I made【product name】that solves【what problem】. I think you might find it useful — would you try it? Tell me anything that's not working."
+> "I made【product name】for【what problem】. I think you might find it useful. Would you try it and tell me where it doesn't work?"
 
 3. **Write down all their feedback**: where they got stuck, what they didn't understand, what they didn't use.
 
-> 🎯 This week's goal isn't numbers — it's **10 pieces of real feedback.**
+> 🎯 Collect **10 pieces of real feedback** this week. Save the users' own words instead of reducing every response to "they liked it."
 
 ### Week 2: Improve it to "worth recommending"
 
-With 10 pieces of feedback, do three things:
+Sort the 10 pieces of feedback, then revise in this order:
 
 1. **Fix the most painful problem** (if 5 of 10 people mentioned it, it must be fixed)
 2. **Make first use smooth**: a new person should understand "what this is and how to use it" within 30 seconds
-3. **Add a reason to share**: give users a reason they'd **want to forward it** —
+3. **Add a reason to share**: give users something specific they may want to forward:
    - A result they're proud to show? (generate a shareable card)
    - Useful to a friend? (a one-tap "share with a friend" feature)
    - Fun? (they'll want their friends to try it too)
 
-> When a product is good enough, users speak for you. **Everything this week serves that one goal.**
+> After the revision, ask the original 10 users to try again. Confirm that the problem is fixed before sharing more widely.
 
-### Week 3: From 10 to 50 — find your "distribution channel"
+### Week 3: From 10 to 50, find a repeatable channel
 
-Now get seen. Pick one channel you can sustain, 30 minutes a day, for a week:
+Choose one approach you can maintain for a week and give it 30 minutes a day:
 
-- 📣 **Share in your circles**: friends feed / groups / social platforms — post "real usage" rather than ads
-- 🤝 **Find a small partnership**: collaborate with a relevant group owner/blogger — "a perk for your members"
+- 📣 **Share in your circles**: friends feed / groups / social platforms; show real use instead of an ad
+- 🤝 **Find a small partnership**: collaborate with a relevant group owner or blogger and offer it to members who need it
 - ✍️ **Write "how I built this"**: a real story of the process travels further than any ad
 
-> Principle: **share real usage and value — never "advertising".** People hate ads but love useful things.
+> Describe who used it, in what situation, and what changed. Use fewer slogans and show the actual process.
 
-### Week 4: From 50 to 100 — serve every returning user
+### Week 4: From 50 to 100, study returning users
 
-The last stretch runs on word of mouth:
+From 50 to 100, pay attention to users who return or recommend the product:
 
 1. **Reply to every piece of feedback**: answer the same day, and tell the user when it's fixed
 2. **Give active users a voice**: ask "what feature do you want next?"
 3. **Prepare a "growth switch"**: if you're stuck at 90-something, run a small "invite 2 friends to unlock a new feature" activity
 
-> 💡 After 100 users, you no longer need to "learn how to build products" — the market has already taught you.
+> 💡 At 100 users, review acquisition sources, usage, and return visits. The data will show which approach deserves another month.
 
-## The three mindsets you'll go through
+## What may happen each week
 
-- **Week 1**: "Nobody cares. Maybe nobody needs this?" → Normal. Keep talking one-on-one; don't mass-message.
-- **Week 2-3**: "Someone shared it on their own!" → Remember this feeling; it's the action you replicate.
-- **Week 4**: "Growth isn't magic — it's service + distribution." → You graduate 🎓
+- **Week 1**: Few people reply. Keep inviting people individually and check whether you chose the right audience
+- **Week 2-3**: Someone shares it without being asked. Find out why, then test whether the same message works with other users
+- **Week 4**: Growth slows. Review sources and return visits instead of filling the gap with mass messages 🎓
 
 ## Your creation
 
-100 real users + a "self-growing" path you ran with your own hands.
-
-That path is worth more than the product itself.
+Your result is 100 verifiable usage records and a review of user sources, feedback, and return visits.
 
 ## Share your creation
 
@@ -99,34 +97,34 @@ Write a "from 0 to 100 users" retrospective and post it to the community:
 
 > "One month, 0 → 100 users. I wrote down the whole process 📈"
 
-**Your retrospective becomes the next Builder's textbook.**
+Keep failed attempts and raw numbers in the review so other people can judge which lessons apply to them.
 
 ## What you learned
 
-- 100 users aren't dragged in — they're **accumulated, one satisfied user bringing the next**
-- Growth has no magic: **good product + sincere sharing + attentive service**
-- You've run the full loop: **idea → product → users → feedback → iteration**
-- You're no longer a "learner" — **you're a Builder who makes things people use** 🚀
+- User counts should correspond to actual use, not only follows or downloads
+- Individual feedback helps you improve the product; source data helps you find repeatable ways to share it
+- You completed the full loop: **idea → product → users → feedback → iteration**
+- You now have real usage records that can guide the product's next revision 🚀
 
 ---
 
-## 🏁 Congratulations on completing the challenge!
+## 🏁 After all 8 levels
 
-All 8 levels done. In your hands:
+Check that you have saved:
 
-- 8 real creations
-- A "build things with AI" skill set
-- A group of users who use your product
-- A product that can keep growing
+- 8 projects you can open, demonstrate, or deliver
+- The prompts and revision history from each level
+- Evidence such as user feedback, payments, or run logs
+- One product you are willing to keep maintaining
 
-**This isn't the finish line — it's the starting line.** Next:
+Choose one of these next steps:
 
 - Keep improving your product on the road to 1,000 users
 - Write down your experience and teach the next beginner
 - Join the BuilderX community and meet more people like you
 
-**Welcome home, Builder.** 🌍
+**Save the work and the review before you move on.** 🌍
 
 ---
 
-*This is the last level. Want a refresher? Start again from [Level 0](../00-first-build/) — this time you'll be ten times faster.*
+*This is the last level. To review, repeat [Level 0](../00-first-build/) and compare the prompts and results from both attempts.*
