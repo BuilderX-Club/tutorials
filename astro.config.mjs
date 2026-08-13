@@ -17,7 +17,11 @@ export default defineConfig({
         en: 'BuilderX Build Challenge',
       },
       description: '你的第一个 AI 应用/产品，从这里开始。',
-      logo: { src: './src/assets/builderx-logo.svg', alt: 'BuilderX' },
+      logo: {
+        light: './src/assets/logo-light.png',
+        dark: './src/assets/logo-dark.png',
+        alt: 'BuilderX',
+      },
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/BuilderX-Club/tutorials' },
       ],
