@@ -26,7 +26,7 @@ export default defineConfig({
         { icon: 'github', label: 'GitHub', href: 'https://github.com/BuilderX-Club/tutorials' },
       ],
       editLink: {
-        baseUrl: 'https://github.com/BuilderX-Club/tutorials/edit/main/src/content/docs/',
+        baseUrl: 'https://github.com/BuilderX-Club/tutorials/edit/main/',
       },
       sidebar: [
         {
